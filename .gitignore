@@ -1,6 +1,8 @@
+.gitignore
 data
 *.csv
 *.zip
 *.pyc
 *.ipynb_checkpoints
 *.DS_store
+Transactions_old.ipynb
