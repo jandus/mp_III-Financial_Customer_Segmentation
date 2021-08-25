@@ -1,4 +1,4 @@
-# Flight Predictor - LHL mini-project-III
+# Customer Segmentation (Banking) - LHL mini-project-III
 
 
 ### Topics
