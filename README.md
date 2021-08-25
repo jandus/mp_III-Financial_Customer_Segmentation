@@ -1,5 +1,4 @@
-# mini-project-III
-Repo with the instructions for the Mini Project III.
+# Flight Predictor - LHL mini-project-III
 
 
 ### Topics
@@ -11,8 +10,6 @@ This mini project is dedicated to following topics:
 - Unsupervised Learning
 
 ### Data
-We will be using old data about different financial transactions. You can download the data from [here](https://drive.google.com/file/d/1zAjnf936aHkwVCq_BmA47p4lpRjyRzMf/view?usp=sharing). The data contains following tables:
-
 - twm_customer - information about customers
 - twm_accounts - information about accounts
 - twm_checking_accounts - information about checking accounts (subset of twm_accounts)
@@ -26,7 +23,7 @@ We will be using old data about different financial transactions. You can downlo
 
 ### Output
 
-In this miniproject, we will:
+Mini Project Tasks:
 
 1.  create two separate customer segmentations (using clustering) to split them into 3-5 clusters: 
     - based on demographics (only on the information from twm_customer)
@@ -38,3 +35,8 @@ In this miniproject, we will:
 3. visualize segmentations using scatter plot. We will have to use PCA to be able to plot our observations in 2D.
 4. (stretch) visualize in 2D how our clusters are evolving in each iteration of KMeans (for at least 20 iterations).
     - we will need to create own implementation of kmeans so we can see what is happening with the clusters during the iterations.
+    
+### Files
+1. Data_Exploration.ipynb - Notebook that contains Exploration of data
+2. Demographics_clusering.ipynb - Notebook with Data Wrangling and Feature engineering for demographic clustering.
+3. Transactions_Data_Wrangling.ipynb - Notebook with Data Wrangling and Feature engineering for Banking behavior tasks.
